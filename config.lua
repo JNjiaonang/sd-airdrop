@@ -6,7 +6,7 @@ Config.CoreName = 'qb-core'
 -- Target Config
 Config.TargetName = 'qb-target'
 Config.TargetIcon = 'fab fa-dropbox'
-Config.TargetLabel = 'Open Crate'
+Config.TargetLabel = '打开板条箱'
 
 -- Police Config
 Config.RequiredCops = 0 -- How many cops are required to drop a gun?
@@ -28,26 +28,25 @@ Config.CrateModel = "ex_prop_adv_case_sm" -- Model of the crate
 -- Item Drops Config
 Config.ItemDrops = {
     ["goldenphone"] = {
-        [1] = {name = "weapon_smg", description = "Key", amount = 1},
-        [2] = {name = "weapon_assaultsmg", description = "Key", amount = 1},
-        [3] = {name = "weapon_assaultrifle", description = "Key", amount = 1},
-        [4] = {name = "weapon_carbinerifle", description = "Key", amount = 1},
+        [1] = {name = "shengjingsuipiana", description = "碎片A", amount = 1},
     },
+    ["blackphone"] = {
+        [1] = {name = "shengjingsuipianb", description = "碎片B", amount = 1},
+    },	
     ["redphone"] = {
-        [1] = {name = "coke_brick", description = "Coke Brick", amount = 5},
+        [1] = {name = "shengjingsuipianc", description = "碎片C", amount = 1},
     },
     ["greenphone"] = {
-        [1] = {name = "weapon_heavypistol", description = "Heavy Pistol", amount = 6},
-        [2] = {name = "ifak", description = "iFaks", amount = 20},
+        [1] = {name = "shengjingsuipianc", description = "碎片D", amount = 1},
     },
 }
 
 -- Locale Config
 Config.Lang = { 
-    ["pilot_contact"] = "You will be contacted soon",
-    ["no_cops"] = "There aren't enough cops...",
-    ["pilot_dropping_soon"] = "The plane will be in the air and the crate will be dropping soon.",
-    ["pilot_crashed"] = "Fuck! The plane crashed! Delivery has failed!",
-    ["crate_dropping"] = "Crate is on its way down.",
-    ["item_recieved"] = "You got the goods",
+    ["pilot_contact"] = "我们很快就会联系您",
+    ["no_cops"] = "警察不够...",
+    ["pilot_dropping_soon"] = "飞机正在寻找空投区域，板条箱很快就会被投送下来.",
+    ["pilot_crashed"] = "操！飞机坠毁了！交货失败了!",
+    ["crate_dropping"] = "板条箱正在下降.",
+    ["item_recieved"] = "你拿到货了",
 }
