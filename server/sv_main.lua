@@ -95,6 +95,12 @@ QBCore.Functions.CreateUseableItem("redphone", function(source, item)
     TriggerClientEvent("sd-airdrop:client:CreateDrop", src, tostring(item.name), true, 400)            
 end)
 
+-- black Satellite Phone
+QBCore.Functions.CreateUseableItem("blackphone", function(source, item)
+    local src = source    
+    TriggerClientEvent("sd-airdrop:client:CreateDrop", src, tostring(item.name), true, 400)            
+end)
+
 -- Green Satellite Phone
 QBCore.Functions.CreateUseableItem("greenphone", function(source, item)
     local src = source    
