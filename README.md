@@ -18,12 +18,16 @@ If you're editing the SetEntityVelocity of the Parachute and/or the crate, make 
 - Add the images in the folder to your inventory
 - Add the below items to qb-core/shared/items.lua
 
+添加了一款新的设备   blackphone 满足服务器需求
 ```lua
-["goldenphone"]  = {["name"] = "goldenphone", ["label"] = "Golden Satellite Phone",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "goldenphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A communication device used to contact russian mafia."},
+["goldenphone"]  = {["name"] = "goldenphone", ["label"] = "金色卫星电话",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "goldenphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "一种用于联系俄罗斯黑手党的通信设备."},
 
-["redphone"]     = {["name"] = "redphone",    ["label"] = "Red Satellite Phone",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "redphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A communication device used to contact russian mafia."},
+["redphone"]     = {["name"] = "redphone",    ["label"] = "红色卫星电话",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "redphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "一种用于联系俄罗斯黑手党的通信设备."},
 
-["greenphone"] 	 = {["name"] = "greenphone",  ["label"] = "Green Satellite Phone",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "greenphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A communication device used to contact russian mafia."},
+["greenphone"] 	 = {["name"] = "greenphone",  ["label"] = "绿色卫星电话",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "greenphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "一种用于联系俄罗斯黑手党的通信设备."},
+
+["blackphone"] 	 = {["name"] = "blackphone",  ["label"] = "黑色卫星电话",	 ["weight"] = 200, 		["type"] = "item", 		["image"] = "blackphone.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "一种用于联系俄罗斯黑手党的通信设备."},
+
 ```
 
 # Credits
