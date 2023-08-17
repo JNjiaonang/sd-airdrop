@@ -212,7 +212,7 @@ RegisterNetEvent('dropCoords:client:setPoly', function(dropCoords)
     })
     DropZone:onPlayerInOut(function(isPointInside)
         if isPointInside then
-            QBCore.Functions.Notify("You've entered a Red Zone, it's KOS.", "error")
+            QBCore.Functions.Notify("你进入了空投区域，注意敌人.", "error")
         else
         end
     end)
@@ -245,7 +245,7 @@ RegisterNetEvent("sd-airdrop:client:CreateDrop", function(useditem, roofCheck, p
                 end    
             end)
         else
-            QBCore.Functions.Notify("The Airspace is too crowded at the moment.", "error")
+            QBCore.Functions.Notify("空域现在太拥挤了.", "error")
         end
     end)
 end)
